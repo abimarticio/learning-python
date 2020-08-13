@@ -60,4 +60,12 @@ print(is_lower)
 # follows pemdas
 print(x + y * x) # 30
 
-
+text = "The quick brown for jumps over the lazy dog"
+print(text)
+print(text.lower())
+words = text.split()
+print(words)
+print(words[:4])
+# [start:stop:step]
+print(words[::-1])
+print(word.split())
