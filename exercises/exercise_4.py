@@ -38,13 +38,6 @@ while(input_num % 2 == 0):
 print()
 
 #exercise 4c
-num = 0
-result = 0
-while (num < 15):
-    num += 1
-    result = result + num
-print(result)
-
 result = 0
 for num in range(0, 16):
     result += num
