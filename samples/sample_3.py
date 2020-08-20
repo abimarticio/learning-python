@@ -24,7 +24,7 @@ print(isinstance(x, str))
 # c = word[3]
 # k = word[4]
 print(word[0])
-# var[start:stop:end]
+# var[start:stop:step]
 print(word[1:])
 print(word[1:4])
 print(word[1:3])
@@ -34,7 +34,7 @@ print(word[len(word) - 2])
 print(word[-1])
 print(word[-2])
 print(word[:5])
-#print kciuq
+# print kciuq
 print(word[::-1])
 print(word[:4][0]) # print "q"
 
@@ -60,7 +60,7 @@ print(is_lower)
 # follows pemdas
 print(x + y * x) # 30
 
-text = "The quick brown for jumps over the lazy dog"
+text = "The quick brown fox jumps over the lazy dog"
 print(text)
 print(text.lower())
 words = text.split()
