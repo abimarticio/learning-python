@@ -57,9 +57,9 @@ while (i < x):
 print()
 
 # exercise 4e
-i = -1
+i = 0
 x = len(word)
 while (i < x):
-    i += 1
     if i % 2 == 1:
-        print(word[i-1:i+1])
+        print(word[i - 1:i + 1])
+    i += 1
