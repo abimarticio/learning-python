@@ -48,7 +48,7 @@ print()
 #exercise 4d
 word = "incredible"
 i = 0
-x = len(word)-1
+x = len(word) - 1
 while (i < x):
     if i % 2 == 0:
         print(word[i])
