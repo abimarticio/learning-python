@@ -29,7 +29,7 @@ def main():
     while True:
         input_question = input("Enter question: ").upper()
         if input_question == "":
-            print("Please enter your quetion!")
+            print("Please enter your question!")
         elif input_question != "":
             break
 
