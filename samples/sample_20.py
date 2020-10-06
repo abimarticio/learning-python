@@ -9,3 +9,12 @@ def index():
         return "ID not found"
     else:
         return " Opening database entry #{}".format(id)
+
+@app.route("/get_correction/<text_input>")
+def get_correction(text_input: str):
+    corrections = {"rainning": "raining", "raning": "raining"}
+    return (
+        corrections.get(text_input)
+        if text_input in corrections
+        else text_input
+    )
