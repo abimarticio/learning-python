@@ -18,3 +18,7 @@ def get_correction(text_input: str):
         if text_input in corrections
         else text_input
     )
+
+if __name__ == "__main__":
+    # run the Flask app in localhost at port 5000
+    app.run(host="0.0.0.0", port=5000, debug=True)
